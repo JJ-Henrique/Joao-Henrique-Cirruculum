@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - João Henrique Braga</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- menu -->
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+      <!-- INÍCIO -->
+      <section id="inicio" class="fade">
+        <h1>João Henrique braga</h1>
+        <img src="img/minha foto.png" class="avatar" alt="Minha foto" />
+        <p>Desenvolvedor em formação apaixonado por tecnologia.</p>
+        <p>
+          Com experiência na área administrativa, atuando com processos
+          licitatórios, controle de custos e organização de fluxos de trabalho.
+          Em transição para a área de tecnologia, cursando Análise e
+          Desenvolvimento de Sistemas e com conhecimentos em Git/GitHub, HTML,
+          CSS, JavaScript, SQL e Linux. Busca atuar no desenvolvimento de
+          aplicações web, contribuindo para soluções modernas, enquanto aprimora
+          habilidades práticas em programação e bancos de dados. Possui domínio
+          do Excel e interesse em aplicar habilidades de análise e automação de
+          processos em projetos de desenvolvimento e melhoria operacional.
+        </p>
+        <button class="btn" onclick="mostrarMensagem()">Bem-vindo</button>
+      </section>
+
+      <section id="sobre" class="fade">
+        <h1>Sobre mim</h1>
+        <div class="sobre-card">
+          <h2>Competências Técnicas</h2>
+          <ul>
+            <li>
+              Git e GitHub: utilização para versionamento de código e controle
+              de projetos.
+            </li>
+            <li>
+              HTML e CSS: consolidação prática por meio de projetos pessoais.
+            </li>
+            <li>
+              SQL: compreensão dos fundamentos e aplicação em estudos de
+              modelagem e consultas a bancos de dados.
+            </li>
+            <li>
+              JavaScript: conhecimento aplicado a exercícios e desafios de
+              programação.
+            </li>
+            <li>Conhecimentos em Informática: Redes, software e hardware.</li>
+            <li>Proficiência em Excel, Pacote Office, Canva.</li>
+            <li>
+              Figma: uso para prototipagem de interfaces e organização de
+              layouts.
+            </li>
+            <li>
+              Linux: nível introdutório, com ênfase em comandos básicos e
+              ambiente de desenvolvimento.
+            </li>
+            <li>Inglês – Nível Intermediário B1</li>
+            <li>
+              Gestão de processos, organização de fluxos de trabalho físicos e
+              digitais e melhoria da eficiência operacional.
+            </li>
+            <li>
+              Experiência em atividades administrativas, incluindo apoio em
+              compras e controle financeiro básico.
+            </li>
+            <li>Elaboração e organização de documentos físicos e digitais.</li>
+          </ul>
+        </div>
+        <!-- Card de Formação -->
+        <div class="sobre-card">
+          <h2>Formação</h2>
+          <p>
+            Superior: UNINTER – Análise e Desenvolvimento de Sistemas (2025 –
+            2027)
+          </p>
+        </div>
+
+        <!-- Card de Cursos -->
+        <div class="sobre-card">
+          <h2>Cursos</h2>
+          <ul>
+            <li>Banco de Dados SQL - Udemy - 2025</li>
+            <li>Git e GitHub – Alura – 2024</li>
+            <li>
+              HTML e CSS: Ambientes de desenvolvimento e estrutura de arquivos –
+              Alura – 2024
+            </li>
+            <li>JavaScript e HTML – Alura – 2024</li>
+            <li>Lógica de Programação – Alura – 2024</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- hab -->
+      <section id="habilidades" class="fade">
+        <h1>Habilidades</h1>
+
+        <div class="skill">
+          <span>HTML</span>
+          <div class="barra">
+            <div class="progresso" data-width="80%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>CSS</span>
+          <div class="barra">
+            <div class="progresso" data-width="70%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="barra">
+            <div class="progresso" data-width="60%"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projec -->
+      <section id="projetos" class="fade">
+        <h1>Projetos</h1>
+
+        <div class="card">
+          <h3>Responsive ELDEN RING Landing Page</h3>
+          <p>Site responsivo feito com HTML, CSS e JavaScript.</p>
+          <a
+            href="https://github.com/JJ-Henrique/Responsive-ELDEN-RING-Landing-Page"
+            target="_blank"
+            class="btn"
+            >Ver Projeto</a
+          >
+        </div>
+
+        <div class="card">
+          <h3>UNINTER Fundamentos</h3>
+          <p>Projeto desenvolvido durante o curso de Fundamentos da UNINTER.</p>
+          <a
+            href="https://github.com/JJ-Henrique/UNINTER-Fundamentos"
+            target="_blank"
+            class="btn"
+            >Ver Projeto</a
+          >
+        </div>
+      </section>
+
+      <!-- cintact -->
+      <section id="contato" class="fade">
+        <h1>Contato</h1>
+        <p>Email: jj.henrique.schueler@gmail.com</p>
+
+        <div class="contato-links">
+          <a href="https://github.com/JJ-Henrique" target="_blank" class="btn">
+            <!-- Ícone GitHub -->
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38v-1.33C4 14.91 3.53 13.8 3.53 13.8c-.36-.91-.88-1.15-.88-1.15-.72-.49.06-.48.06-.48.8.06 1.22.82 1.22.82.71 1.21 1.87.86 2.33.66.07-.52.28-.86.51-1.06-2.22-.25-4.55-1.11-4.55-4.95 0-1.09.39-1.98 1.02-2.67-.1-.25-.44-1.28.1-2.66 0 0 .84-.27 2.75 1.02A9.54 9.54 0 018 3.56a9.53 9.53 0 012.5.34c1.9-1.29 2.74-1.02 2.74-1.02.54 1.38.2 2.41.1 2.66.63.69 1.01 1.58 1.01 2.67 0 3.85-2.34 4.7-4.57 4.95.29.25.54.74.54 1.49v2.21c0 .21.15.46.55.38A8 8 0 0016 8c0-4.42-3.58-8-8-8z"
+              />
+            </svg>
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/joaoschueler/"
+            target="_blank"
+            class="btn"
+          >
+            <!-- Ícone LinkedIn -->
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 448 512"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M100.28 448H7.4V148.9h92.88zm-46.44-340C24.2 108 0 83.6 0 53.9S24.2 0 53.84 0s53.84 24.2 53.84 53.9-24.2 54.1-53.84 54.1zM447.9 448h-92.68V302.4c0-34.7-12.4-58.4-43.4-58.4-23.7 0-37.8 16-44 31.4-2.3 5.5-2.9 13.1-2.9 20.8V448h-92.66s1.2-241.6 0-266.1h92.66v37.7c12.3-19 34.3-46 83.5-46 60.9 0 106.6 39.7 106.6 125.1V448z"
+              />
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- js -->
+    <script src="script.js"></script>
+  </body>
+</html>
